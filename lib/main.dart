@@ -1,5 +1,5 @@
-import 'note_view.dart';
-import './view/taskfield_view.dart';
+// import './view/taskfield_view.dart';
+import './view/ListarPerritos_view.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: TaskView(),
+      home: ListarPerritos(),
     );
   }
 }
